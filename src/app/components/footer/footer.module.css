@@ -1,0 +1,14 @@
+.root {
+    background-color: #282828;
+    position: absolute;
+    z-index: -1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    position: relative;
+    z-index: 10;
+}
