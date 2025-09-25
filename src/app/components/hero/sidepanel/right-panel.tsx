@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function RightPanel() {
     return (
-        <div className="absolute left-8 top-1/2 -translate-y-1/2 flex flex-col gap-8 text-[#FF4500]" 
-             style={{ fontFamily: 'Mondwest, sans-serif' }}>
+        <div className="absolute left-12 top-1/2 -translate-y-1/2 flex flex-col gap-8 text-[#FF4500]" 
+             style={{ fontFamily: 'Mondwest, sans-serif', fontSize: '14.5px', fontWeight: '500' }}>
             <NavLink href="/projects">Projects</NavLink>
             <NavLink href="/blog">Blog</NavLink>
             <NavLink href="/music">Music</NavLink>

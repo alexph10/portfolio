@@ -111,7 +111,7 @@ const AsciiDonut: React.FC = () => {
           background: 'linear-gradient(45deg, #FF4500, #FFA000)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
-          textShadow: '0 0 3px rgba(255, 140, 0, 0.6)', // Adjusted shadow color
+          textShadow: '0 0 3px white', // Adjusted shadow color
           whiteSpace: 'pre',
           textAlign: 'center',
           letterSpacing: '0.05em',

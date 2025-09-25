@@ -77,7 +77,7 @@ const TerrainMap: React.FC = () => {
 
     return (
         <div className="w-full h-full overflow-hidden font-mono">
-            <pre style={{ fontSize: '0.7rem', lineHeight: '0.8' }}>
+            <pre style={{ fontSize: '0.65rem', lineHeight: '0.7' }}>
                 {map.map((row, i) => (
                     <div key={i}>
                         {row.map((cell, j) => (
